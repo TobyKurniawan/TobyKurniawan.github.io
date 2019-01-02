@@ -16,19 +16,33 @@
 </div> 
 
 <div class="topnav" id="myTopnav">
-  <a href="index.html">Home</a>
-  <a href="Links.html" class="active">Links</a>
-  <a href="About.html">About</a>
-  <a class="icon" onclick="responsiveTopnav()"><i class="fa fa-bars"></i></a>
+
+	<a href="index.html">Home</a>
+	<a href="Links.html" class="active">Links</a>
+	<a href="About.html">About</a>
+	<a class="icon" onclick="responsiveTopnav()"><i class="fa fa-bars"></i></a>
+
 </div>
 
 <div class="buttonFormatting">
-<button class="contactButton"><i class="far fa-envelope"></i></button>
-<a href="https://www.linkedin.com/in/tobykurniawan/" target="_blank"><button class="contactButton"><i class="fab fa-linkedin"></i></button></a>
-<a href="https://github.com/TobyKurniawan" target="_blank"><button class="contactButton"><i class="fab fa-github"></i></button></a>
+
+	<button class="contactButton" id="emailBtn"><i class="far fa-envelope"></i></button>
+	<a href="https://www.linkedin.com/in/tobykurniawan/" target="_blank"><button class="contactButton"><i class="fab fa-linkedin"></i></button></a>
+	<a href="https://github.com/TobyKurniawan" target="_blank"><button class="contactButton"><i class="fab fa-github"></i></button></a>
+
+</div>
+
+<div class="modal" id="modalEmail">
+
+  <div class="modalContent">
+    <span class="close">&times;</span>
+    <p>E-mail: toby.kurniawan@mail.utoronto.ca</p>
+  </div>
+
 </div>
 
 <script src="responsiveTop.js"></script>
+<script src="modalEmail.js"></script>
 
 </body>
 </html>
