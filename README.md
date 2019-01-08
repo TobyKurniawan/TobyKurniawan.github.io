@@ -1,3 +1,3 @@
 # TobyKurniawan.github.io
 Welcome! 
-Here's a compilation of some projects I've completed and/or am currently working on. 
+I am planning to use this website to document all future side projects I will be working on. 
